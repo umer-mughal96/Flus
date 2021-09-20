@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="Group_221" data-name="Group 221" transform="translate(-176.5 -446.5)">
+    <g id="Icon_feather-plus-circle" data-name="Icon feather-plus-circle" transform="translate(178 448)">
+      <path id="Path_41" data-name="Path 41" d="M63,33A30,30,0,1,1,33,3,30,30,0,0,1,63,33Z" transform="translate(-3 -3)" fill="none" stroke="#111b4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <path id="Icon_awesome-arrow-left" data-name="Icon awesome-arrow-left" d="M14.942,26.291,13.654,27.58a1.387,1.387,0,0,1-1.967,0L.406,16.3a1.387,1.387,0,0,1,0-1.967L11.686,3.056a1.387,1.387,0,0,1,1.967,0l1.288,1.288a1.394,1.394,0,0,1-.023,1.99L7.926,13H24.6A1.389,1.389,0,0,1,26,14.389v1.857A1.389,1.389,0,0,1,24.6,17.639H7.926L14.919,24.3A1.384,1.384,0,0,1,14.942,26.291Z" transform="translate(192.353 490.996) rotate(-90)" fill="#111b4f"/>
+  </g>
+</svg>
