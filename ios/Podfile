@@ -12,6 +12,8 @@ target 'flus' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'flusTests' do
     inherit! :complete
     # Pods for testing
@@ -27,3 +29,4 @@ target 'flus' do
     react_native_post_install(installer)
   end
 end
+   

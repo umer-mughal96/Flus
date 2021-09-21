@@ -6,6 +6,7 @@ import {store} from './src/redux/store';
 import {persistor} from './src/redux/store';
 import {PersistGate} from 'redux-persist/integration/react';
 import {useEffect} from 'react';
+
 //Umer Branch
 // const Moralis = require('moralis');
 // Moralis.initialize("qR0dYYsalIsmo00S0TMYLB7YAMR5si4JIHf8MuDI");
@@ -13,6 +14,7 @@ import {useEffect} from 'react';
 // Moralis.serverURL = 'https://bs8lvgkqrztw.moralis.io:2053/server'
 
 const App = () => {
+  
   useEffect(async () => {
     //GENERATE BITCOIN ADDRESS
     // const keyPair = await bitcoin.ECPair.makeRandom();
@@ -59,6 +61,7 @@ const App = () => {
     //   // const b = await getBalance();
     //   // console.log("🚀 ~ file: App.js ~ line 43 ~ useEffect ~ b", b)
   }, []);
+
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>

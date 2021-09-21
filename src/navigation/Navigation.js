@@ -10,7 +10,6 @@ import EmailVerifyToken from '../screens/Signup/EmailVerifyToken';
 import CreateMobile from '../screens/Signup/CreateMobile';
 import ConfirmMobile from '../screens/Signup/ConfirmMobile';
 import MobileVerifyToken from '../screens/Signup/MobileVerifyToken';
-// import AfterMobileVerify from '../screens/Signup/AfterMobileVerify';
 import WalletHome from '../screens/Wallet/WalletHome';
 import ReferralScreen from '../screens/ReferralScreen';
 import RestoreScreen from '../screens/Signup/RestoreScreen';
@@ -70,7 +69,6 @@ import BuyCryptocurrency from '../screens/TopUp/BuyCryptocurrency';
 import Topup_Order from '../screens/TopUp/GiftCardTopUp';
 import ReceiveCryptocurrency from '../screens/TopUp/ReceiveCryptocurrency';
 import DexBuyKey from '../components/reusable/DexBuyKey/DexBuyKey';
-// import Capture from '../screens/TopUp/Capture';
 import HelpSupport from '../screens/Wallet/Profile/HelpSupport/HelpSupport';
 import ReportBug from '../screens/Wallet/Profile/ReportBug/ReportBug';
 
