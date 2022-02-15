@@ -20,6 +20,7 @@ export default function BTCPrivateKey({navigation}) {
           flex: 1.5,
           justifyContent: 'center',
           alignItems: 'center',
+
         }}>
         <Card
           style={{
@@ -58,24 +59,22 @@ export default function BTCPrivateKey({navigation}) {
           </Text>
         </Card>
       </View>
-      <View
+   
+   
+     <View
         style={{
           flex: 0.9,
-          alignItems: 'center',
         }}>
         <View
           style={{
             flexDirection: 'row',
-            alignSelf: 'center',
-            justifyContent: 'space-between',
-            width: hp('28%'),
-            backgroundColor: 'white',
+            justifyContent: 'space-around',
+            paddingHorizontal:"12%"
           }}>
           <Card
             style={{
               backgroundColor: 'white',
               width: wp('25%'),
-              // height: hp('11%'),
               borderRadius: 15,
               alignItems: 'center',
               justifyContent: 'center',
@@ -109,12 +108,13 @@ export default function BTCPrivateKey({navigation}) {
 
         <View
           style={{
-            paddingTop: hp('1.8%'),
-            width: wp('45'),
             justifyContent: 'center',
+            alignItems:"center"
           }}>
           <Text
             style={{
+              marginTop:"5%",
+              width: wp('45'),
               alignItems: 'center',
               textAlign: 'center',
               textAlignVertical: 'center',

@@ -48,7 +48,7 @@ export default function RecoverySeedSinUp({navigation}) {
 
         <View style={styles.secondBox}>
           <Text style={styles.RecoverySeed}>
-            Save this recovery seed,This will be required to recover your YFIC
+            Save this recovery seed,This will be required to recover your flus
             Wallet account
           </Text>
           <DarkButton

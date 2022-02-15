@@ -10,18 +10,19 @@ import {colors} from '../../config/colors';
 import {useSelector} from 'react-redux';
 import BalanceCarousel from '../../components/reusable/Carousel/Carousel';
 import {EyeSvg, UpSvg} from '../../svgs/WalletHomeSvgs';
-import {ButtonSendUpSvg2, RecieveSendUpSvg2} from '../../svgs/BtcDetailSvg';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 export default function WalletHome({navigation}) {
-  const {btc} = useSelector(s => s.Btc);
-  const {eth} = useSelector(s => s.Eth);
-  const [ethBalance, setEthereumBalance] = useState('');
-  const [yficBalance, setYficBalance] = useState('');
-
+  // const {btc} = useSelector(s => s.Btc);
+  // const {eth} = useSelector(s => s.Eth);
+  // const [ethBalance, setEthereumBalance] = useState('');
+  // const [yficBalance, setYficBalance] = useState('');
+  const [showeye, setshoweye] = useState(false);
   console.log(
-    '🚀 ~ file: WalletHome.js ~ line 292 ~ WalletHome ~ yficBalance',
-    yficBalance,
+    '🚀 ~ file: WalletHome.js ~ line 21 ~ WalletHome ~ showeye',
+    showeye,
   );
+
   // const web3 = new Web3(
   //   new Web3.providers.HttpProvider(
   //     'https://mainnet.infura.io/v3/1b7d0652789f4e5a8aeddf37e660dbdc',
@@ -68,12 +69,6 @@ export default function WalletHome({navigation}) {
 
   return (
     <View style={styles.container}>
-      <StatusBar
-        barStyle="dark-content"
-        hidden={false}
-        backgroundColor="white"
-        translucent={true}
-      />
       {/* ....View 1..... */}
       <View style={styles.view1}>
         <TouchableOpacity>
@@ -91,7 +86,12 @@ export default function WalletHome({navigation}) {
       <View style={styles.ViewWapper}>
         <Card style={styles.view2}>
           <View style={{position: 'absolute', right: 5, top: 5}}>
-            <EyeSvg />
+            <Icon
+              name={showeye ? 'eye' : 'eye-off'}
+              color="#fff"
+              size={40}
+              onPress={() => setshoweye(!showeye)}
+            />
           </View>
           <Text style={{fontSize: 14, fontFamily: 'Poppins', color: '#FFFFFF'}}>
             Currency USD
@@ -118,9 +118,10 @@ export default function WalletHome({navigation}) {
 
       <View style={styles.CardWarpper}>
         <Card style={styles.SendCard}>
-          <TouchableOpacity onPress={() => navigation.navigate('SendEth')}>
-            <ButtonSendUpSvg2 width={48} height={48} />
-
+          <TouchableOpacity
+            style={{alignItems: 'center'}}
+            onPress={() => navigation.navigate('SendEth')}>
+            <Icon name="arrow-up-circle-outline" color="#000000" size={42} />
             <Text style={{fontFamily: 'Poppins-Medium', fontSize: 14}}>
               Send
             </Text>
@@ -128,8 +129,10 @@ export default function WalletHome({navigation}) {
         </Card>
 
         <Card style={styles.ReceiveCard}>
-          <TouchableOpacity onPress={() => navigation.navigate('recieveBtc')}>
-            <RecieveSendUpSvg2 width={48} height={48} />
+          <TouchableOpacity
+            style={{alignItems: 'center'}}
+            onPress={() => navigation.navigate('recieveBtc')}>
+            <Icon name="arrow-up-circle-outline" color="#000000" size={42} />
 
             <Text style={{fontFamily: 'Poppins-Medium', fontSize: 14}}>
               Receive
@@ -137,7 +140,11 @@ export default function WalletHome({navigation}) {
           </TouchableOpacity>
         </Card>
         <Card style={styles.ExchangeCard}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            style={{alignItems: 'center'}}
+            onPress={() => navigation.navigate('exchange')}>
+            <Icon name="swap-horizontal-outline" color="#000" size={40} />
+
             <Text style={{fontFamily: 'Poppins-Medium', fontSize: 14}}>
               Exchange
             </Text>

@@ -13,13 +13,14 @@ export default function ETHPrivateKey({navigation}) {
     <View
       style={{
         flex: 1,
-        backgroundColor: 'white',
+        backgroundColor: '#FFFFFF',
       }}>
       <View
         style={{
           flex: 1.5,
           justifyContent: 'center',
           alignItems: 'center',
+
         }}>
         <Card
           style={{
@@ -45,37 +46,35 @@ export default function ETHPrivateKey({navigation}) {
             style={{
               fontSize: hp('3%'),
               color: '#111B4F',
-              fontFamily: 'Poppins-Medium',
+              fontFamily: 'Poppins-Regular',
             }}>
             Private Key
           </Text>
           <Text
             style={{
-              fontSize: hp('1.5%'),
-              fontFamily: 'Poppins-Medium',
+              // fontSize: hp('1.5%'),
+              fontFamily: 'Poppins-Regular',
             }}>
             ASDF5S4F456FA
           </Text>
         </Card>
       </View>
-      <View
+   
+   
+     <View
         style={{
-          flex: 0.5,
-          alignItems: 'center',
-          backgroundColor: 'white',
+          flex: 0.9,
         }}>
         <View
           style={{
             flexDirection: 'row',
-            alignSelf: 'center',
-            justifyContent: 'space-between',
-            width: hp('28%'),
+            justifyContent: 'space-around',
+            paddingHorizontal:"12%"
           }}>
           <Card
             style={{
               backgroundColor: 'white',
               width: wp('25%'),
-
               borderRadius: 15,
               alignItems: 'center',
               justifyContent: 'center',
@@ -109,12 +108,13 @@ export default function ETHPrivateKey({navigation}) {
 
         <View
           style={{
-            paddingTop: hp('1.8%'),
-            width: wp('45'),
             justifyContent: 'center',
+            alignItems:"center"
           }}>
           <Text
             style={{
+              marginTop:"5%",
+              width: wp('45'),
               alignItems: 'center',
               textAlign: 'center',
               textAlignVertical: 'center',

@@ -279,9 +279,9 @@ export const UpSvg = () => {
   );
 };
 
-export const EyeSvg = () => {
+export const EyeSvg = ({onPress}) => {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={onPress}>
       <Svg width="40" height="40" viewBox="0 0 42.296 28.197" color="#FFFFFF">
         <Path
           id="Icon_awesome-eye"

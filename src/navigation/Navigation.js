@@ -16,14 +16,8 @@ import RestoreScreen from '../screens/Signup/RestoreScreen';
 import RecoveryRestore from '../screens/Signup/RecoveryRestore';
 import ProceedScreen from '../screens/Signup/ProceedScreen';
 import CustodianInfo from '../screens/Wallet/Profile/Security/AddCustodian/CustodianInfo';
-import EtheriumDetail from '../screens/Wallet/Ethenium/EheriumDetail';
-import RecieveEth from '../screens/Wallet/Ethenium/RecieveEth';
-// import SendEth from '../screens/Wallet/Ethenium/SendEth';
 import RecoverySeedSinUp from '../screens/Signup/RecoverySeedSinUp';
-import WalletSats from '../screens/Wallet/YearnCash/WalletStats';
 import CustodianConfirmation from '../screens/Wallet/Profile/Security/AddCustodian/CustodianConfirmation';
-import TransactionSuccess from '../screens/Wallet/Ethenium/TransactionSuccess';
-import TransactionConfirmPass from '../screens/Wallet/Ethenium/TransactionConfirmPass';
 import Sendbtc from '../screens/Wallet/BitCoin/Sendbtc';
 import RecieveBtc from '../screens/Wallet/BitCoin/RecieveBtc';
 import RecoverySeed from '../screens/Wallet/Profile/Security/ChangeRecoverySeed/RecoverySeed';
@@ -99,6 +93,8 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
+
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -113,6 +109,8 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
+
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -127,6 +125,8 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
+
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -141,6 +141,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -155,6 +156,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -169,6 +171,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -183,6 +186,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -197,6 +201,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -211,6 +216,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -225,6 +231,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -239,6 +246,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -250,23 +258,11 @@ export default function Navigation() {
         name="verifyMobile"
         component={MobileVerifyToken}
       />
-      {/* <Stack.Screen
-        options={{
-          title: '',
-          headerStyle: {
-            backgroundColor: 'white',
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontWeight: 'bold',
-          },
-        }}
-        name="Capture"
-        component={Capture}
-      /> */}
+
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
           },
@@ -295,6 +291,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Dex',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -313,6 +310,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Gift Card Topup',
+          headerBackTitle: ' ',
           headerTintColor: 'black',
 
           headerStyle: {
@@ -336,6 +334,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Exchange',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -354,6 +353,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Exchange Verify',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -371,6 +371,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Exchange Done',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -389,6 +390,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Gift Card Topup',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -406,6 +408,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Topup',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -423,6 +426,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Topup',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -440,6 +444,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -457,6 +462,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'App settings',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -475,6 +481,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Account Details',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -492,6 +499,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Account Details',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -509,6 +517,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'TopUP',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -526,6 +535,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Account Details',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -543,6 +553,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Currency',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -560,6 +571,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Security',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -577,6 +589,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -594,23 +607,12 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
-            // shadowColor: '#000',
-            // shadowOffset: {width: 0, height: 1},
-            // shadowOpacity: 0.1,
-            // elevation: 1,
           },
           headerTintColor: 'black',
-          // headerTitleStyle: {
-          //   justifyContent: 'center',
-          //   alignItems: 'center',
-          //   fontFamily: 'Poppins-Medium',
-
-          //   fontSize: 16,
-          // },
         }}
         name="Confirmation"
         component={CustodianConfirmation}
@@ -618,6 +620,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Activity',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -635,6 +638,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -653,6 +657,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Activity',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -670,7 +675,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -688,7 +693,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -703,28 +708,11 @@ export default function Navigation() {
         name="SecurityConfirmPass"
         component={SecurityConfirmPass}
       />
-      {/* <Stack.Screen
-        options={{
-          title: 'Capture',
 
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="capture"
-        component={Capture}
-      /> */}
       <Stack.Screen
         options={{
           title: 'Gallery',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -742,7 +730,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: ' ',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -760,12 +748,10 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
-
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
+          headerBackTitle: ' ',
+          headerTransparent: true,
+          headerBackTitle: ' ',
+          headerTintColor: '#fff',
           headerTitleStyle: {
             fontFamily: 'Poppins-Medium',
             margin: 80,
@@ -777,61 +763,8 @@ export default function Navigation() {
       />
       <Stack.Screen
         options={{
-          title: 'Ethereum',
-
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="ethDetail"
-        component={EtheriumDetail}
-      />
-      <Stack.Screen
-        options={{
-          title: 'Recieve',
-
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="recieveEth"
-        component={RecieveEth}
-      />
-      {/* <Stack.Screen
-        options={{
-          title: 'Send',
-
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="sendEth"
-        component={SendEth}
-      /> */}
-      <Stack.Screen
-        options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -850,7 +783,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Send',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -868,7 +801,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: 'Send',
-
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -883,63 +816,11 @@ export default function Navigation() {
         name="ETHPrivateKey"
         component={ETHPrivateKey}
       />
-      <Stack.Screen
-        options={{
-          title: 'Send',
 
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="WalletSats"
-        component={WalletSats}
-      />
-      <Stack.Screen
-        options={{
-          title: 'Confirmation',
-
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="TransactionConfromPass"
-        component={TransactionConfirmPass}
-      />
-      <Stack.Screen
-        options={{
-          title: 'Confirmation',
-
-          headerStyle: {
-            backgroundColor: 'white',
-            borderRadius: 15,
-          },
-          headerTintColor: 'black',
-          headerTitleStyle: {
-            fontFamily: 'Poppins-Medium',
-            margin: 80,
-            fontSize: 18,
-          },
-        }}
-        name="TransactionSuccess"
-        component={TransactionSuccess}
-      />
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -959,6 +840,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -977,6 +859,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -995,6 +878,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1013,6 +897,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1031,6 +916,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1049,6 +935,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1067,6 +954,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1085,6 +973,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1103,6 +992,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1121,6 +1011,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1139,6 +1030,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1157,6 +1049,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1175,6 +1068,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
 
           headerStyle: {
             backgroundColor: 'white',
@@ -1193,6 +1087,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -1210,6 +1105,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -1227,6 +1123,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -1244,6 +1141,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,
@@ -1261,6 +1159,7 @@ export default function Navigation() {
       <Stack.Screen
         options={{
           title: '',
+          headerBackTitle: ' ',
           headerStyle: {
             backgroundColor: 'white',
             borderRadius: 15,

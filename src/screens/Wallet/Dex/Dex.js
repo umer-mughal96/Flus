@@ -12,7 +12,7 @@ export default function Dex({navigation}) {
         <View style={styles.CardWarpper}>
           <Card elevation={2} cornerRadius={14} style={styles.card}>
             <TouchableOpacity
-              onPress={() => navigation.navigate('AfterTokenExchange')}
+              // onPress={() => navigation.navigate('AfterTokenExchange')}
               style={{
                 flexDirection: 'row',
                 justifyContent: 'center',
@@ -31,7 +31,7 @@ export default function Dex({navigation}) {
           </Card>
           <Card elevation={2} cornerRadius={14} style={styles.card}>
             <TouchableOpacity
-              onPress={() => navigation.navigate('Capture')} //Capture  //afterMobileVerify
+              // onPress={() => navigation.navigate('Capture')} //Capture  //afterMobileVerify
               style={{
                 flexDirection: 'row',
                 justifyContent: 'center',
@@ -49,7 +49,7 @@ export default function Dex({navigation}) {
           </Card>
           <Card elevation={2} cornerRadius={14} style={styles.card}>
             <TouchableOpacity
-              onPress={() => navigation.navigate('afterMobileVerify')}
+              // onPress={() => navigation.navigate('afterMobileVerify')}
               style={{
                 flexDirection: 'row',
                 justifyContent: 'center',
@@ -67,7 +67,7 @@ export default function Dex({navigation}) {
           </Card>
           <Card elevation={2} cornerRadius={14} style={styles.card}>
             <TouchableOpacity
-              onPress={() => navigation.navigate('afterMobileVerify')}
+              // onPress={() => navigation.navigate('afterMobileVerify')}
               style={{
                 flexDirection: 'row',
                 justifyContent: 'center',
@@ -85,7 +85,7 @@ export default function Dex({navigation}) {
           </Card>
           <Card elevation={2} cornerRadius={14} style={styles.card}>
             <TouchableOpacity
-              onPress={() => navigation.navigate('afterMobileVerify')}
+              // onPress={() => navigation.navigate('afterMobileVerify')}
               style={{
                 flexDirection: 'row',
                 justifyContent: 'center',
@@ -101,7 +101,7 @@ export default function Dex({navigation}) {
               />
             </TouchableOpacity>
           </Card>
-        </View>
+        </View> 
       </View>
     </View>
   );
